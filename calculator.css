@@ -1,0 +1,65 @@
+ td {
+     text-align: center;
+     border: 0.5px solid black
+ }
+
+ ;
+ .display {
+     text-align: right;
+ }
+
+ table {
+     border: 0px solid black;
+     margin: 0 auto;
+ }
+
+ .zerotd {
+     column-span: 2;
+     text-align: left;
+ }
+
+ .display {
+     height: 120px;
+     text-align: right;
+     vertical-align: bottom;
+     font-size: 60px;
+     background-color: #424242;
+     border-color: #424242;
+     color: #FFFFFF;
+ }
+
+ button {
+     display: block;
+     border: none;
+     width: 80px;
+     height: 80px;
+     font-size: 24px;
+ }
+
+ .zerobt {
+     width: 100%;
+     padding-left: 35px;
+     text-align: left;
+ }
+
+ .obt {
+     color: #FFFFFF;
+     background-color: #FF8C00;
+     font-size: 30px;
+ }
+
+ .nbt,
+ .dotbt,
+ .zerobt {
+     background-color: #F8F8FF;
+ }
+
+ .opbt {
+     background-color: #EAEAEA;
+ }
+
+ p {
+     text-align: center;
+     font-size: 14px;
+     margin-top: 50px;
+ }

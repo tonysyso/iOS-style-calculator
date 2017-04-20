@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iOS风格计算器</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <table cellspacing=0 cellpadding=0>
+        <caption>仿iOS风格计算器1.0</caption>
+        <tr> 
+            <td class="display" id="shownb" colspan="4">0</td>
+        </tr>
+        <tr>
+            <td><button class="opbt" id="ac">AC</button></td>
+            <td><button class="opbt" id="pm"><sup>+</sup>/<sub>-</sub></button></td>
+            <td><button class="opbt" id="remainder" value="%">%</button></td>
+            <td><button class="obt" id="divide" value="/">&divide;</button></td>
+        </tr>
+        <tr>
+            <td><button class="nbt" id="nubmer" value="7">7</button></td>
+            <td><button class="nbt" id="number" value="8">8</button></td>
+            <td><button class="nbt" id="number" value="9">9</button></td>
+            <td><button class="obt" id="times" value="*">&times;</button></td>
+        </tr>
+        <tr>
+            <td><button class="nbt" id="numbre" value="4">4</button></td>
+            <td><button class="nbt" id="number" value="5">5</button></td>
+            <td><button class="nbt" id="number" value="6">6</button></td>
+            <td><button class="obt" id="minus" value="-">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="nbt" id="number" value="1">1</button></td>
+            <td><button class="nbt" id="number" value="2">2</button></td>
+            <td><button class="nbt" id="number" value="3">3</button></td>
+            <td><button class="obt" id="add" value="+">+</button></td>
+        </tr>
+
+        <tr>
+            <td class="zoretd" colspan="2"><button class="zerobt" id="zeronb" value="0">0</button></td>
+            <td><button class="dotbt" id="dot" value=".">.</button></td>
+            <td><button class="obt" id="equals">=</button></td>
+        </tr>
+
+    </table>
+
+    
+    <script src="calculator.js"></script>
+</body>
+
+</html>
